@@ -1,0 +1,138 @@
+*{
+    font-family: 'Kufam', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+aside{
+    width: 15%;
+    height: 100%;
+    z-index: 1;
+}
+
+.navegador{
+    width: 15%;
+    height: 100%;
+    /*background: linear-gradient(180deg,rgb(1, 1, 22),rgb(36, 31, 176),pink,azure);*/
+    /*background-image: url(../images/banner5.jpeg);*/
+    /*background-image: url(https://i.pinimg.com/564x/72/e9/62/72e962d4981aadcda928d10d6aa57fb3.jpg)*/;
+    background-image: url(../images/Aside4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0px;
+    min-height: auto;
+
+
+
+    position:fixed;
+    text-align: center;
+
+    top: 0;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegador li {
+    width: auto;
+    position: absolute; 
+    display: contents; 
+    padding: 1em;
+    margin: 0.5em 0;
+    background-color: white;
+    font-family: 'Kufam', sans-serif;
+    font-weight: bold;
+    font-size: auto;
+    min-width: fit-content;
+}
+
+ul li img{
+    width: 20%;
+}
+
+.copyright{
+    position: absolute;
+    font-size: x-small;
+    left:5%;
+    right: 5%;
+    bottom: 2em;
+}
+
+.copyright::first-letter{
+    font-size: 1em;
+}
+
+#fondo{
+    font-size:xx-small;
+    position:absolute;
+    bottom: 0%;
+}
+
+
+main{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+    top:0;
+    left: 0;
+    z-index: -2;
+}
+
+.informacion-banner {
+    position: absolute;
+    top: 58%;
+    left: 18%;
+    color:gray;
+    font-size:x-large
+    
+    
+}
+
+/*aqui empieza css sobre mi*/
+
+
+.sobre-mi{
+    background: linear-gradient(#000000 90%, rgb(18, 20, 20));
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    margin-top: -10px;
+}
+
+.presentacion{
+    position: absolute;
+    color:beige;
+    font-size:x-large;
+    z-index: -3;
+    width: 45%;
+    left: 18%;
+
+}
+
+
+.foto-perfil img{
+    width: 40%;
+    height: 99vh;
+    position: relative;
+    display: inline-block;
+    top: auto;
+    left: 60%;
+    border-radius: 50% 20% / 10% 40%;
+    border-style:groove;
+}
