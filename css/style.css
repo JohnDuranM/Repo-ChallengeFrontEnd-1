@@ -157,19 +157,25 @@ main{
 }
 
 .container-proyectos-ejecutados{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+    display:flex;
+    align-items:center;
     padding: 10px;
-
+    width:auto;
+    margin:12% 2% 2% 2%;
+    background-color: black;
 }
 
-a img{
-    width: 200px;
+a{
+    width: 25%;
     justify-content: center;
-    margin: 4em 10px;
+    margin: 5% 10px;
+}
 
-
+.img-proyecto{
+    width: 100%;
+    justify-content: center;
+    margin: 5% 10px;
+    
 }
 
 /*aqui empieza css contactos*/
