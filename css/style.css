@@ -219,8 +219,16 @@ input:last-child{
 }
 
 @media screen and (min-width:218px) and (max-width:480px){
-    .contenido{
-        height: 100%;    
+    .contenido .Proyectos{
+        height: 100vh;    
+    }
+    .Contacto{
+        height: 100vh; 
+    }
+    section{
+        height:105vh;
+        background-color: black;
+        z-index: -2;
     }
     li,p{
         font-size:12px;
@@ -233,6 +241,7 @@ input:last-child{
     }
     .banner{
         width:100%;
+
     }
     .foto-perfil img{
         width:40%;
@@ -264,4 +273,5 @@ input:last-child{
     input:last-child{
         width: 25%;
     }
+
 }
