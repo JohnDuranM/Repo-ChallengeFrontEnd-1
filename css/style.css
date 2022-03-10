@@ -152,16 +152,22 @@ main{
     font-size:x-large;
     z-index: -3;
     width: 45%;
-    left: 18%;
+}
+
+.proyectos-ejecutados{
+    position: absolute;
+    left:18%;
+    display: block;
+    width:85%;
 
 }
 
 .container-proyectos-ejecutados{
     display:flex;
-    align-items:center;
-    padding: 10px;
+    padding-top: 10vw;
+    padding-bottom:20%;
     width:auto;
-    margin:12% 2% 2% 2%;
+    margin:12% 2% 10% 2%;
     background-color: black;
 }
 
@@ -174,7 +180,7 @@ a{
 .img-proyecto{
     width: 100%;
     justify-content: center;
-    margin: 5% 10px;
+    margin: 10% 10px;
     
 }
 
@@ -210,4 +216,52 @@ textarea{
 }
 input:last-child{
     width: 15%;
+}
+
+@media screen and (min-width:218px) and (max-width:480px){
+    .contenido{
+        height: 100%;    
+    }
+    li,p{
+        font-size:12px;
+    }
+    .copyright{
+        font-size: 8px;
+    }
+    ul li img {
+        width: 50%;
+    }
+    .banner{
+        width:100%;
+    }
+    .foto-perfil img{
+        width:40%;
+        height:60vh;
+        left: 54%;
+    }
+    .titulo-secundario{
+        font-size: 18px;
+        color: beige;
+        margin: 0,0,3%,0;
+    }
+
+    .introduccion{
+        font-size: 12px;
+    }
+
+    .container-proyectos-ejecutados{
+        padding-top: 90vw;
+        width:auto;
+        margin:12% 2% 10% 2%;
+        background-color: transparent;
+    }
+    input{
+        width: 50%;
+    }
+    textarea{
+        width: 50%;
+    }
+    input:last-child{
+        width: 25%;
+    }
 }
