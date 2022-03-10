@@ -218,7 +218,68 @@ input:last-child{
     width: 15%;
 }
 
-@media screen and (min-width:218px) and (max-width:480px){
+@media screen and (min-width:100px) and (max-width:280px){
+    .contenido .Proyectos{
+        height: 100vh;    
+    }
+    .Contacto{
+        height: 100vh; 
+    }
+    section{
+        height:105vh;
+        background-color: black;
+        z-index: -2;
+    }
+    li,p{
+        font-size:10px;
+    }
+    .copyright{
+        font-size: 5px;
+    }
+    ul li img {
+        width: 50%;
+    }
+    .banner{
+        width:100%;
+
+    }
+    .foto-perfil img{
+        width:40%;
+        height:60vh;
+        left: 54%;
+    }
+    .titulo-secundario{
+        font-size: 14px;
+        color: beige;
+        margin: 0,0,3%,0;
+    }
+
+    a{
+        margin: 5% 5px; 
+    }
+    .introduccion{
+        font-size: 12px;
+    }
+
+    .container-proyectos-ejecutados{
+        padding-top: 90vw;
+        width:auto;
+        margin:12% 2% 10% 2%;
+        background-color: transparent;
+    }
+    input{
+        width: 60%;
+    }
+    textarea{
+        width: 60%;
+    }
+    input:last-child{
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width:281px) and (max-width:599px){
     .contenido .Proyectos{
         height: 100vh;    
     }
@@ -257,6 +318,59 @@ input:last-child{
     .introduccion{
         font-size: 12px;
     }
+
+    .container-proyectos-ejecutados{
+        padding-top: 90vw;
+        width:auto;
+        margin:12% 2% 10% 2%;
+        background-color: transparent;
+    }
+    input{
+        width: 50%;
+    }
+    textarea{
+        width: 50%;
+    }
+    input:last-child{
+        width: 25%;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:1024px){
+    .contenido .Proyectos{
+        height: 100vh;    
+    }
+    .Contacto{
+        height: 102vh; 
+    }
+    section{
+        height:105vh;
+        background-color: black;
+        z-index: -2;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+    ul li img {
+        width: 50%;
+    }
+    .banner{
+        width:100%;
+
+    }
+    .foto-perfil img{
+        width:40%;
+        height:60vh;
+        left: 54%;
+    }
+    .titulo-secundario{
+        font-size: 18px;
+        color: beige;
+        margin: 0,0,3%,0;
+    }
+
 
     .container-proyectos-ejecutados{
         padding-top: 90vw;
